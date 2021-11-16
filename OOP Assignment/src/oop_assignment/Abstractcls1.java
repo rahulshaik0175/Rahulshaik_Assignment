@@ -1,5 +1,7 @@
 package oop_assignment;
 
-public class Abstractcls1 {
-
+/**Class Has To Be Abstract For Containing Abstract Method**/
+abstract class Abstractcls1
+{
+	abstract public void AbstractTest1();
 }
