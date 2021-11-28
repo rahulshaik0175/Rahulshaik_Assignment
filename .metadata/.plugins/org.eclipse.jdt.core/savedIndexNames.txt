@@ -122,7 +122,6 @@ INDEX VERSION 1.131+C:\Users\Dell\Desktop\Core Java\.metadata\.plugins\org.eclip
 4268462929.index
 2413071867.index
 4090103311.index
-2194760533.index
 613090655.index
 2379263868.index
 500624646.index
