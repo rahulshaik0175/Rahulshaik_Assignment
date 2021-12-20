@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <p id="demo"></p>
+    <script>
+        var num=window.prompt("Enter the Number");
+        function myfunction(){
+        document.write("number="+ num +"<br>");
+        if(num%2==0){
+            document.write("Number is even");
+        }
+        else{
+            document.write("Number is odd");
+        }
+    }
+    document.getElementById('demo').innerHTML=myfunction();
+    </script>
+</body>
+</html>

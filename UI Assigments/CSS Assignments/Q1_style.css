@@ -1,0 +1,33 @@
+.main
+ {
+     border: 2px solid black;
+      width: 70%;
+      background-color: skyblue;
+      height: 200px;
+ }
+.c1{
+    background-color: blue;
+    width: 70%;
+    margin-bottom: -22px;
+    margin-top: -20px;
+    
+}
+.c2{
+    background-color: gray;
+    height: 40px;
+    width: 70%;
+    margin-bottom: -22px;
+    
+}
+.c3{
+    background-color: skyblue;
+    height: 40px;
+    width: 70%;
+    margin-bottom: -22px;
+
+}
+.c4{
+    background-color: gray;
+    width: 70%;
+    height: 40px;
+}

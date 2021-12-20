@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+<title>composedValue</title>
+</head>
+<body>
+    <script>
+        function square(x)
+        {
+            return (x*x);
+        }
+        function double(x)
+        {
+            return (x*2);
+        }
+        function composedValue()
+        {
+            return square(double(5));
+        }
+        var y= composedValue(square,double,5);
+        document.write("The return value of f1 and f2 is:"+y);
+    </script>
+</body>
+</html>

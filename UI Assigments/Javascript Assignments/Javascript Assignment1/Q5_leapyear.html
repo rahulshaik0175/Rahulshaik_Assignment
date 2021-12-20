@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+<title>Leap year</title>
+</head>
+<body>
+    <script>
+        function leapYear()
+        {
+             if(((year%4==0) && ((year%400==0) || (year%100!==0))))
+             {
+                 document.write("year is leap year");
+             }
+             else
+             {
+                 document.write("year is not leap year");
+             }
+        }
+        var year =window.prompt("enter the year");
+        leapYear();
+    </script>
+</body>
+</html>
